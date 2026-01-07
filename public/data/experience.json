@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript Intern",
+    "company": "Intellicore Tech",
+    "location": "Lahore, Pakistan",
+    "duration": "June 2025 - August 2025",
+    "type": "Internship",
+    "description": "Gained professional experience with Angular (frontend) and NestJS (backend), integrating PostgreSQL DB.",
+    "responsibilities": [
+      "Added functionalities of mailer, input validations, logging, modals and Claims Requests in Intellicore HRMS",
+      "Enhanced Rasterex Web Viewer by optimizing annotation scaling/rotation, improved PDF memory management, and fixed bugs",
+      "Worked in Agile sprints with tasks including PR reviews, sprint planning, Git branching, and bug fixes"
+    ],
+    "technologies": ["Angular", "NestJS", "PostgreSQL", "TypeScript", "Git"],
+    "logo": "/images/companies/IntellicoreTech.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Lab Demonstrator",
+    "company": "FAST NUCES, Lahore",
+    "location": "Lahore, Pakistan",
+    "duration": "August 2025 - January 2026",
+    "type": "Part-time",
+    "description": "Teaching assistant for Computer Networks and Assembly Language courses.",
+    "responsibilities": [
+      "Conducted hands-on lab sessions on network protocols, routing, switching, and socket programming",
+      "Guided students through practical networking concepts and troubleshooting",
+      "Taught x86 architecture from fundamentals to display routines and interrupt handling",
+      "Guided students through low-level programming concepts"
+    ],
+    "technologies": ["Computer Networks", "Assembly Language", "x88 Architecture", "Socket Programming"],
+    "logo": "/images/companies/FAST.png"
+  }
+]

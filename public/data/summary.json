@@ -1,0 +1,21 @@
+{
+  "name": "Muhammad Abubakar",
+  "role": "Full-Stack Developer",
+  "taglines": [
+    "Full-Stack Developer",
+    "Web & Mobile Developer",
+    "React & React Native Expert",
+    "Backend Specialist"
+  ],
+  "bio": "Detail-oriented Computer Science professional with experience in full-stack and mobile development, scalable architectures. Skilled in React (Vite), React Native, Angular, NestJS, Node.js, PostgreSQL, MongoDB, with strong problem solving, OOP, data structures, and database foundations. Proficient in AI-enhanced software development practices, using intelligent assistants to streamline coding and problem-solving.",
+  "profileImage": "/images/profile.jpeg",
+  "email": "abubakr.muhammad.5785@gmail.com",
+  "phone": "+92 303 9943773",
+  "location": "Lahore, Pakistan",
+  "social": {
+    "github": "https://github.com/muhammadabubakr2005",
+    "linkedin": "https://linkedin.com/in/muhammadabubakr2005",
+    "portfolio": "https://muhammadabubakr2005.github.io/MuhammadAbubakr/"
+  },
+  "resumeUrl": "/documents/MUHAMMAD_ABUBAKAR.pdf"
+}

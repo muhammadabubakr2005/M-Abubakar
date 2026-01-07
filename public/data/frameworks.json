@@ -1,0 +1,152 @@
+{
+  "languages": [
+    {
+      "name": "JavaScript",
+      "icon": "/images/skills/javascript.svg",
+      "proficiency": 80,
+      "category": "language"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "/images/skills/typescript.svg",
+      "proficiency": 80,
+      "category": "language"
+    },
+    {
+      "name": "Python",
+      "icon": "/images/skills/python.svg",
+      "proficiency": 70,
+      "category": "language"
+    },
+    {
+      "name": "SQL",
+      "icon": "/images/skills/mysql.svg",
+      "proficiency": 60,
+      "category": "language"
+    },
+    {
+      "name": "HTML",
+      "icon": "/images/skills/html5.svg",
+      "proficiency": 85,
+      "category": "language"
+    },
+    {
+      "name":"CSS",
+      "icon": "/images/skills/css.svg",
+      "proficiency": 80,
+      "category": "language"
+    }
+  ],
+  "frontend": [
+    {
+      "name": "React.js",
+      "icon": "/images/skills/react.svg",
+      "proficiency": 90,
+      "category": "frontend"
+    },
+    {
+      "name": "React Native",
+      "icon": "/images/skills/react.svg",
+      "proficiency": 85,
+      "category": "frontend"
+    },
+    {
+      "name": "Angular",
+      "icon": "/images/skills/angular.svg",
+      "proficiency": 70,
+      "category": "frontend"
+    },
+    {
+      "name": "Responsive Design",
+      "icon": "/images/skills/responsive.svg",
+      "proficiency": 85,
+      "category": "frontend"
+    }
+  ],
+  "backend": [
+    {
+      "name": "Node.js",
+      "icon": "/images/skills/nodedotjs.svg",
+      "proficiency": 85,
+      "category": "backend"
+    },
+    {
+      "name": "NestJS",
+      "icon": "/images/skills/nestjs.svg",
+      "proficiency": 70,
+      "category": "backend"
+    },
+    {
+      "name": "Express.js",
+      "icon": "/images/skills/express.svg",
+      "proficiency": 90,
+      "category": "backend"
+    },
+    {
+      "name": "FastAPI",
+      "icon": "/images/skills/fastapi.svg",
+      "proficiency": 70,
+      "category": "backend"
+    },
+    {
+      "name": "RESTful APIs",
+      "icon": "/images/skills/openapiinitiative.svg",
+      "proficiency": 85,
+      "category": "backend"
+    }
+  ],
+  "databases": [
+    {
+      "name": "PostgreSQL",
+      "icon": "/images/skills/postgresql.svg",
+      "proficiency": 70,
+      "category": "database"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "/images/skills/mongodb.svg",
+      "proficiency": 80,
+      "category": "database"
+    },
+    {
+      "name": "Prisma ORM",
+      "icon": "/images/skills/prisma.svg",
+      "proficiency": 80,
+      "category": "database"
+    },
+    {
+      "name": "TypeORM",
+      "icon": "/images/skills/typeorm.svg",
+      "proficiency": 70,
+      "category": "database"
+    }
+  ],
+  "tools": [
+    {
+      "name": "VS Code",
+      "icon": "/images/skills/vscode.svg",
+      "proficiency": 95,
+      "category": "tool"
+    },
+    {
+      "name": "Git",
+      "icon": "/images/skills/git.svg",
+      "proficiency": 90,
+      "category": "tool"
+    },
+    {
+      "name": "Postman",
+      "icon": "/images/skills/postman.svg",
+      "proficiency": 90,
+      "category": "tool"
+    }
+  ],
+  "softSkills": [
+    "Problem Solving",
+    "Leadership",
+    "Team Work",
+    "Critical Thinking",
+    "Time Management",
+    "Communication"
+  ]
+}
