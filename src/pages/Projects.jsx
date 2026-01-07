@@ -187,6 +187,24 @@ const Projects = () => {
 const ProjectModal = ({ project, onClose }) => {
   const [lightboxImage, setLightboxImage] = useState(null);
 
+  const getYouTubeEmbedUrl = (url) => {
+    if (!url) return null;
+
+    let videoId = '';
+
+    if (url.includes('youtu.be/')) {
+      videoId = url.split('youtu.be/')[1].split('?')[0];
+    } else if (url.includes('youtube.com/watch?v=')) {
+      videoId = url.split('v=')[1].split('&')[0];
+    }
+
+    if (videoId) {
+      return `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1`;
+    }
+
+    return null;
+  };
+
   return (
     <>
       <motion.div
@@ -213,18 +231,17 @@ const ProjectModal = ({ project, onClose }) => {
           </div>
 
           <div className="modal-body">
-            {project.video && (
+            {project.video && getYouTubeEmbedUrl(project.video) && (
               <div className="project-video">
-                <video
-                  controls
-                  poster={project.thumbnail}
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                  }}
-                >
-                  <source src={project.video} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src={getYouTubeEmbedUrl(project.video)}
+                  title={project.title}
+                  style={{ border: 0 }}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
               </div>
             )}
 
